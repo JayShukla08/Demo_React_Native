@@ -26,7 +26,7 @@ export type RootStackParamList = {
 // Create stack navigator
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
-const App = () => {
+const AppPro = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="LoginPage">
@@ -42,4 +42,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AppPro;
